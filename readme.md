@@ -18,6 +18,8 @@ dotnet build
 
 [xUnit Runner](https://www.nuget.org/packages/xunit.runner.visualstudio/)
 
+[Moq](https://www.nuget.org/packages/Moq)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -27,3 +29,5 @@ dotnet build
 [bUnit Website](https://bunit.dev/)
 
 [xUnit Website](https://xunit.net/)
+
+[Moq Website](https://github.com/moq/moq4)
