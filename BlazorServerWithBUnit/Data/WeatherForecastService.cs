@@ -4,7 +4,12 @@ using System.Threading.Tasks;
 
 namespace BlazorServerWithBUnit.Data
 {
-    public class WeatherForecastService
+    public interface IWeatherForecastService
+    {
+        Task<WeatherForecast[]> GetForecastAsync(DateTime startDate);
+    }
+
+    public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[]
         {
